@@ -1,0 +1,59 @@
+/*****************************************************************
+Filename: EnumData.h
+Project: 
+Author(s):
+
+This is the enumeration manifest file where special enumerations
+are processed by the engine. Essentially this is what happens to
+every single enumeration declared here.
+
+(Where *** is what is inside E_NAME() )
+(Where $$$ is what is inside E_ENTRY() )
+
+- Creates a C++ enumeration E*** 
+  - Each Entry inside of the enumeration is e$$$
+- Creates an instance of the Enum class named ENUM***
+
+The Enum class is cool because it contains a hash map of $$$
+to the corresponding C++ enumeration index
+
+All content © 2015 DigiPen (USA) Corporation, all rights reserved.
+*****************************************************************/
+
+E_NAME(Generics)
+  E_ENTRY(GameComponent)
+  E_ENTRY(GameObject)
+  E_ENTRY(Abstract)
+E_END(Generics)
+
+E_NAME(Component)
+  // Physics
+  E_ENTRY(RigidBody)
+  E_ENTRY(BoxCollider)
+  E_ENTRY(SphereCollider)
+  E_ENTRY(CapsuleCollider)
+  E_ENTRY(GravityEffect)
+  E_ENTRY(ConstantEffect)
+  E_ENTRY(DragEffect)
+
+  E_ENTRY(Transform)
+
+  //Graphics
+  E_ENTRY(Renderable)
+<<<<<<< local
+  E_ENTRY(Paintable)
+=======
+  E_ENTRY(PointLight)
+>>>>>>> other
+
+  // Audio
+  E_ENTRY(SoundEmitter)
+
+  // Gameplay
+  E_ENTRY(GamePad)
+  E_ENTRY(PlayerController)
+  E_ENTRY(Timer)
+
+  E_ENTRY(LuaComponent)
+  E_ENTRY(countComponents) //keep this at the end
+E_END(Component)

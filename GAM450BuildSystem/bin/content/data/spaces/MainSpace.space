@@ -1,0 +1,1944 @@
+MainSpace
+GameObject
+{
+  name std::string "Floor"
+  archetype std::string ""
+  RigidBody
+  {
+    m_State DynamicState 0
+    m_bStateDynamic bool false
+    m_bGhost bool false
+  }
+  BoxCollider
+  {
+    m_Box Box
+    {
+      m_HalfExtents float4
+      {
+        x float 300.000000
+        y float 50.000000
+        z float 300.000000
+        w float 0.000000
+      }
+    }
+  }
+  Transform
+  {
+    m_position Position
+    {
+      translation float4
+      {
+        x float 0.000000
+        y float -110.000000
+        z float 0.000000
+        w float 0.000000
+      }
+      scale float4
+      {
+        x float 300.000000
+        y float 100.000000
+        z float 300.000000
+        w float 0.000000
+      }
+      rotation quaternion
+      {
+        x float 0.000000
+        y float 0.000000
+        z float 0.000000
+        w float 1.000000
+      }
+    }
+    m_right float4
+    {
+      x float 1.000000
+      y float 0.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_up float4
+    {
+      x float 0.000000
+      y float 1.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_forward float4
+    {
+      x float 0.000000
+      y float 0.000000
+      z float 1.000000
+      w float 0.000000
+    }
+  }
+  Renderable
+  {
+    m_ModelName std::string "Cube"
+    m_TextureName std::string "Square"
+    m_NormalTexture std::string "Periwinkle"
+    m_EmissiveTexture std::string "Square"
+    m_IsVisible bool true
+  }
+  EmissiveComponent
+  {
+    m_emittedColor float4
+    {
+      x float 1.000000
+      y float 1.000000
+      z float 1.000000
+      w float 0.000000
+    }
+  }
+  Fade
+  {
+    m_opacity float 1.000000
+    m_timer float 3.000000
+    m_timeBetweenPulses float 10.000000
+    m_fluctuate bool false
+    m_update bool true
+    m_pulse bool true
+  }
+}
+GameObject
+{
+  name std::string "Ceiling"
+  archetype std::string ""
+  RigidBody
+  {
+    m_State DynamicState 0
+    m_bStateDynamic bool false
+    m_bGhost bool false
+  }
+  BoxCollider
+  {
+    m_Box Box
+    {
+      m_HalfExtents float4
+      {
+        x float 300.000000
+        y float 50.000000
+        z float 300.000000
+        w float 0.000000
+      }
+    }
+  }
+  Transform
+  {
+    m_position Position
+    {
+      translation float4
+      {
+        x float 0.000000
+        y float 140.000000
+        z float 0.000000
+        w float 0.000000
+      }
+      scale float4
+      {
+        x float 300.000000
+        y float 100.000000
+        z float 300.000000
+        w float 0.000000
+      }
+      rotation quaternion
+      {
+        x float 0.000000
+        y float 0.000000
+        z float 0.000000
+        w float 1.000000
+      }
+    }
+    m_right float4
+    {
+      x float 1.000000
+      y float 0.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_up float4
+    {
+      x float 0.000000
+      y float 1.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_forward float4
+    {
+      x float 0.000000
+      y float 0.000000
+      z float 1.000000
+      w float 0.000000
+    }
+  }
+  Renderable
+  {
+    m_ModelName std::string "Cube"
+    m_TextureName std::string "Square"
+    m_NormalTexture std::string "Periwinkle"
+    m_EmissiveTexture std::string "Square"
+    m_IsVisible bool true
+  }
+  EmissiveComponent
+  {
+    m_emittedColor float4
+    {
+      x float 1.000000
+      y float 1.000000
+      z float 1.000000
+      w float 0.000000
+    }
+  }
+  Fade
+  {
+    m_opacity float 1.000000
+    m_timer float 3.000000
+    m_timeBetweenPulses float 10.000000
+    m_fluctuate bool false
+    m_update bool true
+    m_pulse bool true
+  }
+}
+GameObject
+{
+  name std::string "WallFront"
+  archetype std::string ""
+  RigidBody
+  {
+    m_State DynamicState 0
+    m_bStateDynamic bool false
+    m_bGhost bool false
+  }
+  BoxCollider
+  {
+    m_Box Box
+    {
+      m_HalfExtents float4
+      {
+        x float 300.000000
+        y float 300.000000
+        z float 50.000000
+        w float 0.000000
+      }
+    }
+  }
+  Transform
+  {
+    m_position Position
+    {
+      translation float4
+      {
+        x float 0.000000
+        y float 40.000000
+        z float -200.000000
+        w float 0.000000
+      }
+      scale float4
+      {
+        x float 300.000000
+        y float 300.000000
+        z float 100.000000
+        w float 0.000000
+      }
+      rotation quaternion
+      {
+        x float 0.000000
+        y float 0.000000
+        z float 0.000000
+        w float 1.000000
+      }
+    }
+    m_right float4
+    {
+      x float 1.000000
+      y float 0.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_up float4
+    {
+      x float 0.000000
+      y float 1.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_forward float4
+    {
+      x float 0.000000
+      y float 0.000000
+      z float 1.000000
+      w float 0.000000
+    }
+  }
+  Renderable
+  {
+    m_ModelName std::string "Cube"
+    m_TextureName std::string "Square"
+    m_NormalTexture std::string "Periwinkle"
+    m_EmissiveTexture std::string "Square"
+    m_IsVisible bool true
+  }
+  EmissiveComponent
+  {
+    m_emittedColor float4
+    {
+      x float 1.000000
+      y float 1.000000
+      z float 1.000000
+      w float 0.000000
+    }
+  }
+  Fade
+  {
+    m_opacity float 1.000000
+    m_timer float 3.000000
+    m_timeBetweenPulses float 10.000000
+    m_fluctuate bool false
+    m_update bool true
+    m_pulse bool true
+  }
+}
+GameObject
+{
+  name std::string "WallBack"
+  archetype std::string ""
+  RigidBody
+  {
+    m_State DynamicState 0
+    m_bStateDynamic bool false
+    m_bGhost bool false
+  }
+  BoxCollider
+  {
+    m_Box Box
+    {
+      m_HalfExtents float4
+      {
+        x float 300.000000
+        y float 300.000000
+        z float 50.000000
+        w float 0.000000
+      }
+    }
+  }
+  Transform
+  {
+    m_position Position
+    {
+      translation float4
+      {
+        x float 0.000000
+        y float 40.000000
+        z float 200.000000
+        w float 0.000000
+      }
+      scale float4
+      {
+        x float 300.000000
+        y float 300.000000
+        z float 100.000000
+        w float 0.000000
+      }
+      rotation quaternion
+      {
+        x float 0.000000
+        y float 0.000000
+        z float 0.000000
+        w float 1.000000
+      }
+    }
+    m_right float4
+    {
+      x float 1.000000
+      y float 0.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_up float4
+    {
+      x float 0.000000
+      y float 1.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_forward float4
+    {
+      x float 0.000000
+      y float 0.000000
+      z float 1.000000
+      w float 0.000000
+    }
+  }
+  Renderable
+  {
+    m_ModelName std::string "Cube"
+    m_TextureName std::string "Square"
+    m_NormalTexture std::string "Periwinkle"
+    m_EmissiveTexture std::string "Square"
+    m_IsVisible bool true
+  }
+  EmissiveComponent
+  {
+    m_emittedColor float4
+    {
+      x float 1.000000
+      y float 1.000000
+      z float 1.000000
+      w float 0.000000
+    }
+  }
+  Fade
+  {
+    m_opacity float 1.000000
+    m_timer float 3.000000
+    m_timeBetweenPulses float 10.000000
+    m_fluctuate bool false
+    m_update bool true
+    m_pulse bool true
+  }
+}
+GameObject
+{
+  name std::string "FrontLeftBlock"
+  archetype std::string ""
+  RigidBody
+  {
+    m_State DynamicState 0
+    m_bStateDynamic bool false
+    m_bGhost bool false
+  }
+  BoxCollider
+  {
+    m_Box Box
+    {
+      m_HalfExtents float4
+      {
+        x float 25.000000
+        y float 10.000000
+        z float 25.000000
+        w float 0.000000
+      }
+    }
+  }
+  Transform
+  {
+    m_position Position
+    {
+      translation float4
+      {
+        x float 125.000000
+        y float -50.000000
+        z float -125.000000
+        w float 0.000000
+      }
+      scale float4
+      {
+        x float 50.000000
+        y float 20.000000
+        z float 50.000000
+        w float 0.000000
+      }
+      rotation quaternion
+      {
+        x float 0.000000
+        y float 0.000000
+        z float 0.000000
+        w float 1.000000
+      }
+    }
+    m_right float4
+    {
+      x float 1.000000
+      y float 0.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_up float4
+    {
+      x float 0.000000
+      y float 1.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_forward float4
+    {
+      x float 0.000000
+      y float 0.000000
+      z float 1.000000
+      w float 0.000000
+    }
+  }
+  Renderable
+  {
+    m_ModelName std::string "Cube"
+    m_TextureName std::string "Square"
+    m_NormalTexture std::string "Periwinkle"
+    m_EmissiveTexture std::string "Square"
+    m_IsVisible bool true
+  }
+  EmissiveComponent
+  {
+    m_emittedColor float4
+    {
+      x float 1.000000
+      y float 1.000000
+      z float 1.000000
+      w float 0.000000
+    }
+  }
+  Fade
+  {
+    m_opacity float 1.000000
+    m_timer float 3.000000
+    m_timeBetweenPulses float 10.000000
+    m_fluctuate bool false
+    m_update bool true
+    m_pulse bool true
+  }
+}
+GameObject
+{
+  name std::string "FrontRightBlock"
+  archetype std::string ""
+  RigidBody
+  {
+    m_State DynamicState 0
+    m_bStateDynamic bool false
+    m_bGhost bool false
+  }
+  BoxCollider
+  {
+    m_Box Box
+    {
+      m_HalfExtents float4
+      {
+        x float 25.000000
+        y float 10.000000
+        z float 25.000000
+        w float 0.000000
+      }
+    }
+  }
+  Transform
+  {
+    m_position Position
+    {
+      translation float4
+      {
+        x float -125.000000
+        y float -50.000000
+        z float -125.000000
+        w float 0.000000
+      }
+      scale float4
+      {
+        x float 50.000000
+        y float 20.000000
+        z float 50.000000
+        w float 0.000000
+      }
+      rotation quaternion
+      {
+        x float 0.000000
+        y float 0.000000
+        z float 0.000000
+        w float 1.000000
+      }
+    }
+    m_right float4
+    {
+      x float 1.000000
+      y float 0.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_up float4
+    {
+      x float 0.000000
+      y float 1.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_forward float4
+    {
+      x float 0.000000
+      y float 0.000000
+      z float 1.000000
+      w float 0.000000
+    }
+  }
+  Renderable
+  {
+    m_ModelName std::string "Cube"
+    m_TextureName std::string "Square"
+    m_NormalTexture std::string "Periwinkle"
+    m_EmissiveTexture std::string "Square"
+    m_IsVisible bool true
+  }
+  EmissiveComponent
+  {
+    m_emittedColor float4
+    {
+      x float 1.000000
+      y float 1.000000
+      z float 1.000000
+      w float 0.000000
+    }
+  }
+  Fade
+  {
+    m_opacity float 1.000000
+    m_timer float 3.000000
+    m_timeBetweenPulses float 10.000000
+    m_fluctuate bool false
+    m_update bool true
+    m_pulse bool true
+  }
+}
+GameObject
+{
+  name std::string "BackRightBlock"
+  archetype std::string ""
+  RigidBody
+  {
+    m_State DynamicState 0
+    m_bStateDynamic bool false
+    m_bGhost bool false
+  }
+  BoxCollider
+  {
+    m_Box Box
+    {
+      m_HalfExtents float4
+      {
+        x float 25.000000
+        y float 10.000000
+        z float 25.000000
+        w float 0.000000
+      }
+    }
+  }
+  Transform
+  {
+    m_position Position
+    {
+      translation float4
+      {
+        x float -125.000000
+        y float -50.000000
+        z float 125.000000
+        w float 0.000000
+      }
+      scale float4
+      {
+        x float 50.000000
+        y float 20.000000
+        z float 50.000000
+        w float 0.000000
+      }
+      rotation quaternion
+      {
+        x float 0.000000
+        y float 0.000000
+        z float 0.000000
+        w float 1.000000
+      }
+    }
+    m_right float4
+    {
+      x float 1.000000
+      y float 0.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_up float4
+    {
+      x float 0.000000
+      y float 1.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_forward float4
+    {
+      x float 0.000000
+      y float 0.000000
+      z float 1.000000
+      w float 0.000000
+    }
+  }
+  Renderable
+  {
+    m_ModelName std::string "Cube"
+    m_TextureName std::string "Square"
+    m_NormalTexture std::string "Periwinkle"
+    m_EmissiveTexture std::string "Square"
+    m_IsVisible bool true
+  }
+  EmissiveComponent
+  {
+    m_emittedColor float4
+    {
+      x float 1.000000
+      y float 1.000000
+      z float 1.000000
+      w float 0.000000
+    }
+  }
+  Fade
+  {
+    m_opacity float 1.000000
+    m_timer float 3.000000
+    m_timeBetweenPulses float 10.000000
+    m_fluctuate bool false
+    m_update bool true
+    m_pulse bool true
+  }
+}
+GameObject
+{
+  name std::string "BackLeftBlock"
+  archetype std::string ""
+  RigidBody
+  {
+    m_State DynamicState 0
+    m_bStateDynamic bool false
+    m_bGhost bool false
+  }
+  BoxCollider
+  {
+    m_Box Box
+    {
+      m_HalfExtents float4
+      {
+        x float 25.000000
+        y float 10.000000
+        z float 25.000000
+        w float 0.000000
+      }
+    }
+  }
+  Transform
+  {
+    m_position Position
+    {
+      translation float4
+      {
+        x float 125.000000
+        y float -50.000000
+        z float 125.000000
+        w float 0.000000
+      }
+      scale float4
+      {
+        x float 50.000000
+        y float 20.000000
+        z float 50.000000
+        w float 0.000000
+      }
+      rotation quaternion
+      {
+        x float 0.000000
+        y float 0.000000
+        z float 0.000000
+        w float 1.000000
+      }
+    }
+    m_right float4
+    {
+      x float 1.000000
+      y float 0.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_up float4
+    {
+      x float 0.000000
+      y float 1.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_forward float4
+    {
+      x float 0.000000
+      y float 0.000000
+      z float 1.000000
+      w float 0.000000
+    }
+  }
+  Renderable
+  {
+    m_ModelName std::string "Cube"
+    m_TextureName std::string "Square"
+    m_NormalTexture std::string "Periwinkle"
+    m_EmissiveTexture std::string "Square"
+    m_IsVisible bool true
+  }
+  EmissiveComponent
+  {
+    m_emittedColor float4
+    {
+      x float 1.000000
+      y float 1.000000
+      z float 1.000000
+      w float 0.000000
+    }
+  }
+  Fade
+  {
+    m_opacity float 1.000000
+    m_timer float 3.000000
+    m_timeBetweenPulses float 10.000000
+    m_fluctuate bool false
+    m_update bool true
+    m_pulse bool true
+  }
+}
+GameObject
+{
+  name std::string "Player1"
+  archetype std::string "Player1"
+  RigidBody
+  {
+    m_State DynamicState 0
+    m_bStateDynamic bool true
+    m_bGhost bool false
+  }
+  BoxCollider
+  {
+    m_Box Box
+    {
+      m_HalfExtents float4
+      {
+        x float 4.000000
+        y float 4.000000
+        z float 4.000000
+        w float 0.000000
+      }
+    }
+  }
+  GravityEffect
+  {
+    m_Direction float4
+    {
+      x float 0.000000
+      y float -1.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_fMagnitude float 40.000000
+    m_bActive bool true
+  }
+  DragEffect
+  {
+    m_fBTerm float 1.000000
+  }
+  Transform
+  {
+    m_position Position
+    {
+      translation float4
+      {
+        x float -125.000000
+        y float 0.000000
+        z float 125.000000
+        w float 0.000000
+      }
+      scale float4
+      {
+        x float 4.000000
+        y float 4.000000
+        z float 4.000000
+        w float 0.000000
+      }
+      rotation quaternion
+      {
+        x float 0.923880
+        y float 0.000000
+        z float 0.382683
+        w float 0.000000
+      }
+    }
+    m_right float4
+    {
+      x float 1.000000
+      y float 0.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_up float4
+    {
+      x float 0.000000
+      y float 1.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_forward float4
+    {
+      x float 0.000000
+      y float 0.000000
+      z float 1.000000
+      w float 0.000000
+    }
+  }
+  Renderable
+  {
+    m_ModelName std::string "PlayerModel"
+    m_TextureName std::string "SphereMap"
+    m_NormalTexture std::string "Periwinkle"
+    m_EmissiveTexture std::string "PlayerGlow"
+    m_IsVisible bool true
+  }
+  EmissiveComponent
+  {
+    m_emittedColor float4
+    {
+      x float 0.150000
+      y float 0.500000
+      z float 1.000000
+      w float 1.000000
+    }
+  }
+  Fade
+  {
+    m_opacity float 1.000000
+    m_timer float 3.000000
+    m_timeBetweenPulses float 10.000000
+    m_fluctuate bool false
+    m_update bool true
+    m_pulse bool false
+  }
+  Levitate
+  {
+    m_offsetRange float 0.500000
+    m_speed float 1.000000
+  }
+  PlayerController
+  {
+    m_nGamePadID int 0
+    m_WorldUp float4
+    {
+      x float 0.000000
+      y float 1.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_fOverHeatUpdate float 1.000000
+    m_fJumpSpeed float 3000.000000
+    m_fJumpCancel float 0.500000
+    m_fMaxMoveSpeed float 100000.000000
+    m_fJumpSpeed float 3000.000000
+    m_DefaultForward float4
+    {
+      x float 0.000000
+      y float 0.000000
+      z float 1.000000
+      w float 0.000000
+    }
+    m_fTimeToShoot float 0.200000
+    m_Color float4
+    {
+      x float 0.150000
+      y float 0.500000
+      z float 1.000000
+      w float 1.000000
+    }
+  }
+  Stats
+  {
+    m_health int 25
+    m_deathPos float4
+    {
+      x float -125.000000
+      y float 150.000000
+      z float 125.000000
+      w float 0.000000
+    }
+    m_respawnPos float4
+    {
+      x float -125.000000
+      y float 0.000000
+      z float 125.000000
+      w float 0.000000
+    }
+  }
+}
+GameObject
+{
+  name std::string "Player2"
+  archetype std::string "Player2"
+  RigidBody
+  {
+    m_State DynamicState 0
+    m_bStateDynamic bool true
+    m_bGhost bool false
+  }
+  BoxCollider
+  {
+    m_Box Box
+    {
+      m_HalfExtents float4
+      {
+        x float 4.000000
+        y float 4.000000
+        z float 4.000000
+        w float 0.000000
+      }
+    }
+  }
+  GravityEffect
+  {
+    m_Direction float4
+    {
+      x float 0.000000
+      y float -1.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_fMagnitude float 40.000000
+    m_bActive bool true
+  }
+  DragEffect
+  {
+    m_fBTerm float 1.000000
+  }
+  Transform
+  {
+    m_position Position
+    {
+      translation float4
+      {
+        x float 125.000000
+        y float 0.000000
+        z float 125.000000
+        w float 0.000000
+      }
+      scale float4
+      {
+        x float 4.000000
+        y float 4.000000
+        z float 4.000000
+        w float 0.000000
+      }
+      rotation quaternion
+      {
+        x float 0.923881
+        y float 0.000000
+        z float -0.382680
+        w float 0.000000
+      }
+    }
+    m_right float4
+    {
+      x float 1.000000
+      y float 0.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_up float4
+    {
+      x float 0.000000
+      y float 1.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_forward float4
+    {
+      x float 0.000000
+      y float 0.000000
+      z float 1.000000
+      w float 0.000000
+    }
+  }
+  Renderable
+  {
+    m_ModelName std::string "PlayerModel"
+    m_TextureName std::string "SphereMap"
+    m_NormalTexture std::string "Periwinkle"
+    m_EmissiveTexture std::string "PlayerGlow"
+    m_IsVisible bool true
+  }
+  EmissiveComponent
+  {
+    m_emittedColor float4
+    {
+      x float 0.750000
+      y float 0.000000
+      z float 0.690000
+      w float 1.000000
+    }
+  }
+  Fade
+  {
+    m_opacity float 1.000000
+    m_timer float 3.000000
+    m_timeBetweenPulses float 10.000000
+    m_fluctuate bool false
+    m_update bool true
+    m_pulse bool false
+  }
+  Levitate
+  {
+    m_offsetRange float 0.500000
+    m_speed float 1.000000
+  }
+  PlayerController
+  {
+    m_nGamePadID int 1
+    m_WorldUp float4
+    {
+      x float 0.000000
+      y float 1.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_fOverHeatUpdate float 1.000000
+    m_fJumpSpeed float 3000.000000
+    m_fJumpCancel float 0.500000
+    m_fMaxMoveSpeed float 100000.000000
+    m_fJumpSpeed float 3000.000000
+    m_DefaultForward float4
+    {
+      x float 0.000000
+      y float 0.000000
+      z float 1.000000
+      w float 0.000000
+    }
+    m_fTimeToShoot float 0.200000
+    m_Color float4
+    {
+      x float 0.750000
+      y float 0.000000
+      z float 0.690000
+      w float 1.000000
+    }
+  }
+  Stats
+  {
+    m_health int 25
+    m_deathPos float4
+    {
+      x float 125.000000
+      y float 150.000000
+      z float 125.000000
+      w float 0.000000
+    }
+    m_respawnPos float4
+    {
+      x float 125.000000
+      y float 0.000000
+      z float 125.000000
+      w float 0.000000
+    }
+  }
+}
+GameObject
+{
+  name std::string "Player3"
+  archetype std::string "Player3"
+  RigidBody
+  {
+    m_State DynamicState 0
+    m_bStateDynamic bool true
+    m_bGhost bool false
+  }
+  BoxCollider
+  {
+    m_Box Box
+    {
+      m_HalfExtents float4
+      {
+        x float 4.000000
+        y float 4.000000
+        z float 4.000000
+        w float 0.000000
+      }
+    }
+  }
+  GravityEffect
+  {
+    m_Direction float4
+    {
+      x float 0.000000
+      y float -1.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_fMagnitude float 40.000000
+    m_bActive bool true
+  }
+  DragEffect
+  {
+    m_fBTerm float 1.000000
+  }
+  Transform
+  {
+    m_position Position
+    {
+      translation float4
+      {
+        x float 125.000000
+        y float 0.000000
+        z float -125.000000
+        w float 0.000000
+      }
+      scale float4
+      {
+        x float 4.000000
+        y float 4.000000
+        z float 4.000000
+        w float 0.000000
+      }
+      rotation quaternion
+      {
+        x float 0.382683
+        y float 0.000000
+        z float 0.923880
+        w float 0.000000
+      }
+    }
+    m_right float4
+    {
+      x float 1.000000
+      y float 0.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_up float4
+    {
+      x float 0.000000
+      y float 1.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_forward float4
+    {
+      x float 0.000000
+      y float 0.000000
+      z float 1.000000
+      w float 0.000000
+    }
+  }
+  Renderable
+  {
+    m_ModelName std::string "PlayerModel"
+    m_TextureName std::string "SphereMap"
+    m_NormalTexture std::string "Periwinkle"
+    m_EmissiveTexture std::string "PlayerGlow"
+    m_IsVisible bool true
+  }
+  EmissiveComponent
+  {
+    m_emittedColor float4
+    {
+      x float 0.000000
+      y float 0.890000
+      z float 0.300000
+      w float 1.000000
+    }
+  }
+  Fade
+  {
+    m_opacity float 1.000000
+    m_timer float 3.000000
+    m_timeBetweenPulses float 10.000000
+    m_fluctuate bool false
+    m_update bool true
+    m_pulse bool false
+  }
+  Levitate
+  {
+    m_offsetRange float 0.500000
+    m_speed float 1.000000
+  }
+  PlayerController
+  {
+    m_nGamePadID int 2
+    m_WorldUp float4
+    {
+      x float 0.000000
+      y float 1.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_fOverHeatUpdate float 1.000000
+    m_fJumpSpeed float 3000.000000
+    m_fJumpCancel float 0.500000
+    m_fMaxMoveSpeed float 100000.000000
+    m_fJumpSpeed float 3000.000000
+    m_DefaultForward float4
+    {
+      x float 0.000000
+      y float 0.000000
+      z float 1.000000
+      w float 0.000000
+    }
+    m_fTimeToShoot float 0.200000
+    m_Color float4
+    {
+      x float 0.000000
+      y float 0.890000
+      z float 0.300000
+      w float 1.000000
+    }
+  }
+  Stats
+  {
+    m_health int 25
+    m_deathPos float4
+    {
+      x float 125.000000
+      y float 150.000000
+      z float -125.000000
+      w float 0.000000
+    }
+    m_respawnPos float4
+    {
+      x float 125.000000
+      y float 0.000000
+      z float -125.000000
+      w float 0.000000
+    }
+  }
+}
+GameObject
+{
+  name std::string "Player4"
+  archetype std::string "Player4"
+  RigidBody
+  {
+    m_State DynamicState 0
+    m_bStateDynamic bool true
+    m_bGhost bool false
+  }
+  BoxCollider
+  {
+    m_Box Box
+    {
+      m_HalfExtents float4
+      {
+        x float 4.000000
+        y float 4.000000
+        z float 4.000000
+        w float 0.000000
+      }
+    }
+  }
+  GravityEffect
+  {
+    m_Direction float4
+    {
+      x float 0.000000
+      y float -1.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_fMagnitude float 40.000000
+    m_bActive bool true
+  }
+  DragEffect
+  {
+    m_fBTerm float 1.000000
+  }
+  Transform
+  {
+    m_position Position
+    {
+      translation float4
+      {
+        x float -125.000000
+        y float 0.000000
+        z float -125.000000
+        w float 0.000000
+      }
+      scale float4
+      {
+        x float 4.000000
+        y float 4.000000
+        z float 4.000000
+        w float 0.000000
+      }
+      rotation quaternion
+      {
+        x float 0.382680
+        y float 0.000000
+        z float -0.923881
+        w float 0.000000
+      }
+    }
+    m_right float4
+    {
+      x float 1.000000
+      y float 0.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_up float4
+    {
+      x float 0.000000
+      y float 1.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_forward float4
+    {
+      x float 0.000000
+      y float 0.000000
+      z float 1.000000
+      w float 0.000000
+    }
+  }
+  Renderable
+  {
+    m_ModelName std::string "PlayerModel"
+    m_TextureName std::string "SphereMap"
+    m_NormalTexture std::string "Periwinkle"
+    m_EmissiveTexture std::string "PlayerGlow"
+    m_IsVisible bool true
+  }
+  EmissiveComponent
+  {
+    m_emittedColor float4
+    {
+      x float 1.000000
+      y float 0.070588
+      z float 0.000000
+      w float 1.000000
+    }
+  }
+  Fade
+  {
+    m_opacity float 1.000000
+    m_timer float 3.000000
+    m_timeBetweenPulses float 10.000000
+    m_fluctuate bool false
+    m_update bool true
+    m_pulse bool false
+  }
+  Levitate
+  {
+    m_offsetRange float 0.500000
+    m_speed float 1.000000
+  }
+  PlayerController
+  {
+    m_nGamePadID int 3
+    m_WorldUp float4
+    {
+      x float 0.000000
+      y float 1.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_fOverHeatUpdate float 1.000000
+    m_fJumpSpeed float 3000.000000
+    m_fJumpCancel float 0.500000
+    m_fMaxMoveSpeed float 100000.000000
+    m_fJumpSpeed float 3000.000000
+    m_DefaultForward float4
+    {
+      x float 0.000000
+      y float 0.000000
+      z float 1.000000
+      w float 0.000000
+    }
+    m_fTimeToShoot float 0.200000
+    m_Color float4
+    {
+      x float 1.000000
+      y float 0.070588
+      z float 0.000000
+      w float 1.000000
+    }
+  }
+  Stats
+  {
+    m_health int 25
+    m_deathPos float4
+    {
+      x float -125.000000
+      y float 150.000000
+      z float -125.000000
+      w float 0.000000
+    }
+    m_respawnPos float4
+    {
+      x float -125.000000
+      y float 0.000000
+      z float -125.000000
+      w float 0.000000
+    }
+  }
+}
+GameObject
+{
+  name std::string "WallLeft"
+  archetype std::string ""
+  RigidBody
+  {
+    m_State DynamicState 0
+    m_bStateDynamic bool false
+    m_bGhost bool false
+  }
+  BoxCollider
+  {
+    m_Box Box
+    {
+      m_HalfExtents float4
+      {
+        x float 50.000000
+        y float 300.000000
+        z float 300.000000
+        w float 0.000000
+      }
+    }
+  }
+  Transform
+  {
+    m_position Position
+    {
+      translation float4
+      {
+        x float -200.000000
+        y float 40.000000
+        z float 0.000000
+        w float 0.000000
+      }
+      scale float4
+      {
+        x float 100.000000
+        y float 300.000000
+        z float 300.000000
+        w float 0.000000
+      }
+      rotation quaternion
+      {
+        x float 0.000000
+        y float 0.000000
+        z float 0.000000
+        w float 1.000000
+      }
+    }
+    m_right float4
+    {
+      x float 1.000000
+      y float 0.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_up float4
+    {
+      x float 0.000000
+      y float 1.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_forward float4
+    {
+      x float 0.000000
+      y float 0.000000
+      z float 1.000000
+      w float 0.000000
+    }
+  }
+  Renderable
+  {
+    m_ModelName std::string "Cube"
+    m_TextureName std::string "Square"
+    m_NormalTexture std::string "Periwinkle"
+    m_EmissiveTexture std::string "Square"
+    m_IsVisible bool true
+  }
+  EmissiveComponent
+  {
+    m_emittedColor float4
+    {
+      x float 1.000000
+      y float 1.000000
+      z float 1.000000
+      w float 0.000000
+    }
+  }
+  Fade
+  {
+    m_opacity float 1.000000
+    m_timer float 3.000000
+    m_timeBetweenPulses float 10.000000
+    m_fluctuate bool false
+    m_update bool true
+    m_pulse bool true
+  }
+}
+GameObject
+{
+  name std::string "WallRight"
+  archetype std::string ""
+  RigidBody
+  {
+    m_State DynamicState 0
+    m_bStateDynamic bool false
+    m_bGhost bool false
+  }
+  BoxCollider
+  {
+    m_Box Box
+    {
+      m_HalfExtents float4
+      {
+        x float 50.000000
+        y float 300.000000
+        z float 300.000000
+        w float 0.000000
+      }
+    }
+  }
+  Transform
+  {
+    m_position Position
+    {
+      translation float4
+      {
+        x float 200.000000
+        y float 40.000000
+        z float 0.000000
+        w float 0.000000
+      }
+      scale float4
+      {
+        x float 100.000000
+        y float 300.000000
+        z float 300.000000
+        w float 0.000000
+      }
+      rotation quaternion
+      {
+        x float 0.000000
+        y float 0.000000
+        z float 0.000000
+        w float 1.000000
+      }
+    }
+    m_right float4
+    {
+      x float 1.000000
+      y float 0.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_up float4
+    {
+      x float 0.000000
+      y float 1.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_forward float4
+    {
+      x float 0.000000
+      y float 0.000000
+      z float 1.000000
+      w float 0.000000
+    }
+  }
+  Renderable
+  {
+    m_ModelName std::string "Cube"
+    m_TextureName std::string "Square"
+    m_NormalTexture std::string "Periwinkle"
+    m_EmissiveTexture std::string "Square"
+    m_IsVisible bool true
+  }
+  EmissiveComponent
+  {
+    m_emittedColor float4
+    {
+      x float 1.000000
+      y float 1.000000
+      z float 1.000000
+      w float 0.000000
+    }
+  }
+  Fade
+  {
+    m_opacity float 1.000000
+    m_timer float 3.000000
+    m_timeBetweenPulses float 10.000000
+    m_fluctuate bool false
+    m_update bool true
+    m_pulse bool true
+  }
+}
+GameObject
+{
+  name std::string "Timer"
+  archetype std::string ""
+  Transform
+  {
+    m_position Position
+    {
+      translation float4
+      {
+        x float 0.000000
+        y float 150.000000
+        z float 0.000000
+        w float 0.000000
+      }
+      scale float4
+      {
+        x float 1.000000
+        y float 1.000000
+        z float 1.000000
+        w float 0.000000
+      }
+      rotation quaternion
+      {
+        x float 0.000000
+        y float 0.000000
+        z float 0.000000
+        w float 1.000000
+      }
+    }
+    m_right float4
+    {
+      x float 1.000000
+      y float 0.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_up float4
+    {
+      x float 0.000000
+      y float 1.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_forward float4
+    {
+      x float 0.000000
+      y float 0.000000
+      z float 1.000000
+      w float 0.000000
+    }
+  }
+  Timer
+  {
+    m_time float 90.000000
+    m_startTime float 4.000000
+  }
+}
+GameObject
+{
+  name std::string "Platform"
+  archetype std::string ""
+  RigidBody
+  {
+    m_State DynamicState 0
+    m_bStateDynamic bool false
+    m_bGhost bool false
+  }
+  BoxCollider
+  {
+    m_Box Box
+    {
+      m_HalfExtents float4
+      {
+        x float 100.000000
+        y float 5.000000
+        z float 100.000000
+        w float 0.000000
+      }
+    }
+  }
+  Transform
+  {
+    m_position Position
+    {
+      translation float4
+      {
+        x float 0.000000
+        y float -20.000000
+        z float 0.000000
+        w float 0.000000
+      }
+      scale float4
+      {
+        x float 200.000000
+        y float 10.000000
+        z float 200.000000
+        w float 0.000000
+      }
+      rotation quaternion
+      {
+        x float 0.000000
+        y float 0.000000
+        z float 0.000000
+        w float 1.000000
+      }
+    }
+    m_right float4
+    {
+      x float 1.000000
+      y float 0.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_up float4
+    {
+      x float 0.000000
+      y float 1.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_forward float4
+    {
+      x float 0.000000
+      y float 0.000000
+      z float 1.000000
+      w float 0.000000
+    }
+  }
+  Renderable
+  {
+    m_ModelName std::string "Cube"
+    m_TextureName std::string "Square"
+    m_NormalTexture std::string "Periwinkle"
+    m_EmissiveTexture std::string "Square"
+    m_IsVisible bool true
+  }
+  EmissiveComponent
+  {
+    m_emittedColor float4
+    {
+      x float 1.000000
+      y float 1.000000
+      z float 1.000000
+      w float 0.000000
+    }
+  }
+  Fade
+  {
+    m_opacity float 1.000000
+    m_timer float 3.000000
+    m_timeBetweenPulses float 10.000000
+    m_fluctuate bool false
+    m_update bool true
+    m_pulse bool true
+  }
+}
+GameObject
+{
+  name std::string "Light"
+  archetype std::string ""
+  RigidBody
+  {
+    m_State DynamicState 0
+    m_bStateDynamic bool true
+    m_bGhost bool true
+  }
+  BoxCollider
+  {
+    m_Box Box
+    {
+      m_HalfExtents float4
+      {
+        x float 1.500000
+        y float 1.500000
+        z float 1.500000
+        w float 0.000000
+      }
+    }
+  }
+  Transform
+  {
+    m_position Position
+    {
+      translation float4
+      {
+        x float 0.000000
+        y float -40.000000
+        z float 0.000000
+        w float 0.000000
+      }
+      scale float4
+      {
+        x float 5.000000
+        y float 5.000000
+        z float 5.000000
+        w float 0.000000
+      }
+      rotation quaternion
+      {
+        x float 0.707110
+        y float 0.000000
+        z float 0.000000
+        w float 0.707104
+      }
+    }
+    m_right float4
+    {
+      x float 1.000000
+      y float 0.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_up float4
+    {
+      x float 0.000000
+      y float 1.000000
+      z float 0.000000
+      w float 0.000000
+    }
+    m_forward float4
+    {
+      x float 0.000000
+      y float 0.000000
+      z float 1.000000
+      w float 0.000000
+    }
+  }
+  Renderable
+  {
+    m_ModelName std::string "Torus"
+    m_TextureName std::string "Periwinkle"
+    m_NormalTexture std::string "Periwinkle"
+    m_EmissiveTexture std::string "itstheremixtoemissives"
+    m_IsVisible bool true
+  }
+  PointLight
+  {
+    m_LightColor float4
+    {
+      x float 1.000000
+      y float 1.000000
+      z float 1.000000
+      w float 1.000000
+    }
+    m_RangeAttenuation float2
+    {
+      x float 50.000000
+      y float 5.000000
+    }
+  }
+  EmissiveComponent
+  {
+    m_emittedColor float4
+    {
+      x float 1.000000
+      y float 1.000000
+      z float 1.000000
+      w float 1.000000
+    }
+  }
+  Flicker
+  {
+    m_offsetRange float 1.500000
+    m_speed float 1.000000
+  }
+  Flag
+  {
+    m_startPos float4
+    {
+      x float 0.000000
+      y float -40.000000
+      z float 0.000000
+      w float 0.000000
+    }
+  }
+}

@@ -1,0 +1,51 @@
+ .Page{
+  position: relative;
+}
+
+.Title{
+	position: relative;
+	top: 0%;
+	width:100%;
+	height:20%;
+	text-align:center;
+}
+
+.Title Img{
+	margin:auto; /* Required */
+ position:absolute; /* Required */
+ left:0;right:0; /* Aligns horizontal center */
+ max-height:100%;
+ max-width:100%; 
+}
+
+.CreditsImage{
+	position: relative;
+	top: 0%;
+	width:100%;
+	height:70%;
+	text-align:center;
+}
+
+.CreditsImage Img{
+	margin:auto; /* Required */
+ position:absolute; /* Required */
+ left:0;right:0; /* Aligns horizontal center */
+ max-height:100%;
+ max-width:100%; 
+}
+
+.PlayImage{
+	position: relative;
+	top: 0%;
+	width:100%;
+	height:15%;
+	text-align:center;
+}
+
+.PlayImage Img{
+	margin:auto; /* Required */
+ position:absolute; /* Required */
+ left:0;right:0; /* Aligns horizontal center */
+ max-height:100%;
+ max-width:100%; 
+}

@@ -1,0 +1,19 @@
+/******************************************************************************
+\author Nathan Kinnick
+
+Copyright (C) 2014 DigiPen Institute of Technology.
+Reproduction or disclosure of this file or its contents without the prior 
+written consent of DigiPen Institute of Technology is prohibited.
+******************************************************************************/
+body {
+  font: 1.5em Verdana;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+a {
+  width: 40%;
+  margin: 2% 0 2% 0;
+}

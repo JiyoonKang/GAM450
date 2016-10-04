@@ -1,0 +1,244 @@
+ <html>
+<head>
+<title></title>
+ <script src="HUD.js"></script>
+ <script src="Input.js"></script> 
+ <link rel="stylesheet" type="text/css" href="HUD.css">
+</head>
+<body style="background-color:#00000000;">
+<div class="Page">
+<div class="P1Square" id="P1Square">
+	<div class="PlayerNumL">
+	BLUE PLAYER
+	</div>
+	<!--<div class="Health">
+		<div class="HealthLabelL">
+			P1HEALTH
+		</div>
+		<div class="HealthCount" id="player1_Health">
+			negative a billion
+		</div>
+	</div>-->
+	<div class="HealthBarOutlineV" >
+			<!--<img src="image/CancelSelect_Button.gif">-->
+	</div>
+	
+	<div class="AmmoBarOutlineV" >
+			<!--<img src="image/CancelSelect_Button.gif">-->
+	</div>
+	<div class="AmmoBarV" id="P1_AmmoBar">
+			<!--<img src="image/CancelSelect_Button.gif">-->
+	</div>
+	<div class="HealthBarV" id="P1_HealthBar">
+			<!--<img src="image/CancelSelect_Button.gif">-->
+	</div>
+	<!--<div class="Ammo">
+		<div class="AmmoLabel">
+			P1Ammo
+		</div>
+		<div class="AmmoCount" id="player1_Ammo">
+			negative a billion
+		</div>
+		<div class="ReloadText">
+			X TO RELOUD
+		</div>
+	</div>-->
+  <div class="ScoreL">
+    <div class="ScoreLabel">
+      Score: 
+    </div>
+    <div class="ScoreCount" id="player1_Score">
+      0
+    </div>
+  </div>
+	<div class="CenterStage" >
+		<img src="images/Hud_CrossHair_Outline.png" id="P1Center">
+    
+	</div>
+  <div class="CenterGlow" >
+    <img src="images/HUD_Glow_2.png" id="P1Glow">
+  </div>
+  <div class="OverheatL" id="P1OverheatOuterdiv">
+		<img src="images/Hud_OverHeat.png" id="P1Overheat">
+	</div>
+</div>
+<div class="P2Square" id="P2Square">
+	<div class="PlayerNumR">
+	PURPLE PLAYER
+	</div>
+	<!--<div class="Health">
+		<div class="HealthLabelR">
+			P2HEALTH
+		</div>
+		<div class="HealthCount" id="player2_Health">
+			negative a billion
+		</div>
+	</div>
+	<div class="Ammo">
+		<div class="AmmoLabel">
+			P2Ammo
+		</div>
+		<div class="AmmoCount" id="player2_Ammo">
+			negative a billion
+		</div>
+		<div class="ReloadText">
+			X TO RELOUD
+		</div>
+	</div>-->
+  <div class="ScoreR">
+    <div class="ScoreLabel">
+      Score: 
+    </div>
+    <div class="ScoreCount" id="player2_Score">
+      0
+    </div>
+  </div>
+		<div class="HealthBarOutlineV" >
+			<!--<img src="image/CancelSelect_Button.gif">-->
+	</div>
+	
+	<div class="AmmoBarOutlineV" >
+			<!--<img src="image/CancelSelect_Button.gif">-->
+	</div>
+	<div class="AmmoBarV" id="P2_AmmoBar">
+			<!--<img src="image/CancelSelect_Button.gif">-->
+	</div>
+	<div class="HealthBarV" id="P2_HealthBar">
+			<!--<img src="image/CancelSelect_Button.gif">-->
+	</div>
+	<div class="CenterStage">
+		<img src="images/Hud_CrossHair_Outline.png" id="P2Center">
+	</div>
+  <div class="CenterGlow" >
+    <img src="images/HUD_Glow_2.png" id="P2Glow">
+  </div>
+    <div class="OverheatR" id="P2OverheatOuterdiv">
+		<img src="images/Hud_OverHeat.png" id="P2Overheat">
+	</div>
+</div>
+<div class="P3Square"  id="P3Square">
+	<div class="PlayerNumL">
+	GREEN PLAYER
+	</div>
+	<!--<div class="Health">
+		<div class="HealthLabelL">
+			P3HEALTH
+		</div>
+		<div class="HealthCount" id="player3_Health">
+			negative a billion
+		</div>
+	</div>
+	<div class="Ammo">
+		<div class="AmmoLabel">
+			P3Ammo
+		</div>
+		<div class="AmmoCount" id="player3_Ammo">
+			negative a billion
+		</div>
+		<div class="ReloadText">
+			X TO RELOUD
+		</div>
+	</div>-->
+  <div class="ScoreL">
+    <div class="ScoreLabel">
+      Score: 
+    </div>
+    <div class="ScoreCount" id="player3_Score">
+      0
+    </div>
+  </div>
+		<div class="HealthBarOutlineV" >
+			<!--<img src="image/CancelSelect_Button.gif">-->
+	</div>
+	
+	<div class="AmmoBarOutlineV" >
+			<!--<img src="image/CancelSelect_Button.gif">-->
+	</div>
+	<div class="AmmoBarV" id="P3_AmmoBar">
+			<!--<img src="image/CancelSelect_Button.gif">-->
+	</div>
+	<div class="HealthBarV" id="P3_HealthBar">
+			<!--<img src="image/CancelSelect_Button.gif">-->
+	</div>
+	<div class="CenterStage">
+		<img src="images/Hud_CrossHair_Outline.png" id="P3Center">
+	</div>
+  <div class="CenterGlow" >
+    <img src="images/HUD_Glow_2.png" id="P3Glow">
+  </div>
+  <div class="OverheatL" id="P3OverheatOuterdiv">
+		<img src="images/Hud_OverHeat.png" id="P3Overheat">
+	</div>
+</div>
+<div class="P4Square"  id="P4Square">
+	<div class="PlayerNumR">
+	RED PLAYER
+	</div>
+	<!--<div class="Health">
+	<div class="HealthLabelR">
+			P4HEALTH
+		</div>
+		<div class="HealthCount" id="player4_Health">
+			negative a billion
+		</div>
+	</div>
+	<div class="Ammo">
+		<div class="AmmoLabel">
+			P4Ammo: 
+		</div>
+		<div class="AmmoCount" id="player4_Ammo">
+			negative a billion
+		</div>
+		<div class="ReloadText">
+			X TO RELOUD
+		</div>
+	</div>-->
+  <div class="ScoreR">
+    <div class="ScoreLabel">
+      Score: 
+    </div>
+    <div class="ScoreCount" id="player4_Score">
+      0
+    </div>
+  </div>
+	<div class="HealthBarOutlineV" >
+			<!--<img src="image/CancelSelect_Button.gif">-->
+	</div>
+	
+	<div class="AmmoBarOutlineV" >
+			<!--<img src="image/CancelSelect_Button.gif">-->
+	</div>
+	<div class="AmmoBarV" id="P4_AmmoBar">
+			<!--<img src="image/CancelSelect_Button.gif">-->
+	</div>
+	<div class="HealthBarV" id="P4_HealthBar">
+			<!--<img src="image/CancelSelect_Button.gif">-->
+	</div>
+	<div class="CenterStage">
+		<img src="images/Hud_CrossHair_Outline.png" id="P4Center">
+	</div>
+  <div class="CenterGlow" >
+    <img src="images/HUD_Glow_2.png" id="P4Glow">
+  </div>
+  <div class="OverheatR" id="P4OverheatOuterdiv">
+		<img src="images/Hud_OverHeat.png" id="P4Overheat">
+	</div>
+</div>
+<div class="Page">
+	</div>
+	<div class="Timer" id="timer1">
+	89
+	</div>
+
+</div>
+<div class="Winner" >
+  <img src="images/Leading_blue.png" id="winner">
+</div>
+<div class="LeaderTop" id="srh">
+  <img src="images/Leading_blue.png" id="leaderTop">
+</div>
+<div class="LeaderBot" id="dseh">
+  <img src="images/Leading_blue.png" id="leaderBot">
+</div>
+</body>
+</html>

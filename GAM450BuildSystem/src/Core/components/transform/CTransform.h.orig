@@ -1,0 +1,118 @@
+/******************************************************************************/
+/*!
+\file  CTransform.h
+\project  Bring the Paint
+\author Jorge Antonio Robles
+
+Copyright (C) 2015 DigiPen Institute of Technology.
+Reproduction or disclosure of this file or its contents without the prior
+written consent of DigiPen Institute of Technology is prohibited.
+*/
+/******************************************************************************/
+#pragma once
+<<<<<<< local
+#include "Base/util/math/Float4.h"
+#include "base/util/math/float4x4.h"
+#include "base/util/math/Quaternion.h"
+=======
+#include "Base/util/math/Float3.h"
+#include "Base/util/math/Float4x4.h"
+>>>>>>> other
+#include "Base/util/Macros.h"
+#include "Base/util/file/File.h"
+#include "Core/components/base/Component.h"
+
+namespace Core
+{
+  class Transform : public GameComponent
+  {
+  public:
+    Transform();
+    virtual ~Transform() override;
+
+	void Update(void);
+
+    bool operator==(const Transform& rhs);
+    Transform& operator=(const Transform& rhs);
+
+<<<<<<< local
+    float4 const &GetTranslation(void) const;
+    float4 const &GetScale(void) const;
+    quaternion const &GetRotation(void) const;
+=======
+	const float3& GetPosition(void) const;
+	const float4x4& GetRotation(void) const;
+	const float3& GetScale(void) const;
+>>>>>>> other
+
+<<<<<<< local
+    void SetTranslation(float4 const &tran);
+    void SetScale(float4 const &scale);
+    void SetRotation(quaternion const &rot);
+    void SetRotation(float4x4 const &rot);
+
+    float4 const &GetRightVector(void) const;
+    float4 const &GetUpVector(void) const;
+    float4 const &GetForwardVector(void) const;
+
+    void SetRightVector(float4 const &right);
+    void SetUpVector(float4 const &up);
+    void SetForwardVector(float4 const &forward);
+
+    void Translate(float4 const &Translation);
+
+    float4x4 GetRotationMatrix(void) const;
+    float4x4 const &GetWorldMatrix(void) const;
+=======
+	void SetPosition(const float3& position);
+	void SetPosition(float x, float y, float z);
+
+	void SetRotation(const float4x4& rotation);
+	void SetScale(const float3& scale);
+
+	void RotateAround(const float3& vec, float angle);
+	void RotateAroundLocal(const float3& vec, float angle);
+
+	float4x4 GetWorldMatrix(void);
+
+    //float3 GetTranslation(bool world = true) const;
+    //float3 GetScale(bool world = true) const;
+    //float GetRotation(bool world = true) const;
+
+    //void SetTranslation(float3 tran);
+    //void SetScale(float3 scale);
+    //void SetRotation(float rot);
+>>>>>>> other
+
+    //////////////////////////////////////////////////////////////////////////
+    // SERIALIZATION ROUTINE
+
+    static void Serialize(File& file, Variable var);
+    static void Deserialize(File& file, Variable var);
+
+<<<<<<< local
+    float4 m_translation;
+    float4 m_scale;
+    quaternion m_rotation;
+
+    float4 m_right;
+    float4 m_up;
+    float4 m_forward;
+
+  private:
+    float4x4 m_world;
+=======
+    //float3 m_translation;
+    //float3 m_scale;
+    //float m_rotation;
+  //private:
+
+	  float3 m_Position;
+	  float3 m_Scale;
+	  float4x4 m_Rotation;
+
+	  float4x4 m_ModelToWorld;
+	
+>>>>>>> other
+  };
+}

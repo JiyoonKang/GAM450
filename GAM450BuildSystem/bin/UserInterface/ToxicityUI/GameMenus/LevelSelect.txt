@@ -1,0 +1,141 @@
+<html>
+<head>
+<title>GamUI_LevelSelect</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="expires" content="0">
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<!-- Save for Web Slices (GamUI_LevelSelect.psd) -->
+<table id="Table_01" width="1367" height="768" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="5">
+			<img src="PageTop.gif?1448066772" width="1366" height="86" alt=""></td>
+		<td>
+			<img src="spacer.gif" width="1" height="86" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="PageLeftTop.gif?1448066772" width="395" height="92" alt=""></td>
+		<td colspan="3" rowspan="2">
+			<img src="LevelSelectRunner.gif?1448066772" width="572" height="93" alt=""></td>
+		<td>
+			<img src="PageRightTop.gif?1448066772" width="399" height="92" alt=""></td>
+		<td>
+			<img src="spacer.gif" width="1" height="92" alt=""></td>
+	</tr>
+	<tr>
+		<td rowspan="13">
+			<img src="PageLeftMid.gif?1448066772" width="395" height="506" alt=""></td>
+		<td rowspan="13">
+			<img src="PageRightMid.gif?1448066772" width="399" height="506" alt=""></td>
+		<td>
+			<img src="spacer.gif" width="1" height="1" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="ButtonSideLeft.gif?1448066772" width="92" height="69" alt=""></td>
+		<td>
+			<img src="Level1_Button.gif?1448066772" width="388" height="69" alt=""></td>
+		<td>
+			<img src="ButtonSideRight.gif?1448066772" width="92" height="69" alt=""></td>
+		<td>
+			<img src="spacer.gif" width="1" height="69" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="3">
+			<img src="ButtonRunner.gif?1448066772" width="572" height="6" alt=""></td>
+		<td>
+			<img src="spacer.gif" width="1" height="6" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="GamUI_14.gif?1448066772" width="92" height="69" alt=""></td>
+		<td>
+			<img src="Level2_Button.gif?1448066772" width="388" height="69" alt=""></td>
+		<td>
+			<img src="GamUI_16.gif?1448066772" width="92" height="69" alt=""></td>
+		<td>
+			<img src="spacer.gif" width="1" height="69" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="3">
+			<img src="GamUI_20.gif?1448066772" width="572" height="6" alt=""></td>
+		<td>
+			<img src="spacer.gif" width="1" height="6" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="GamUI_23.gif?1448066772" width="92" height="69" alt=""></td>
+		<td>
+			<img src="Level3_Button.gif?1448066772" width="388" height="69" alt=""></td>
+		<td>
+			<img src="GamUI_24.gif?1448066772" width="92" height="69" alt=""></td>
+		<td>
+			<img src="spacer.gif" width="1" height="69" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="3">
+			<img src="GamUI_29.gif?1448066772" width="572" height="6" alt=""></td>
+		<td>
+			<img src="spacer.gif" width="1" height="6" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="GamUI_32.gif?1448066772" width="92" height="69" alt=""></td>
+		<td>
+			<img src="Level4_Button.gif?1448066772" width="388" height="69" alt=""></td>
+		<td>
+			<img src="GamUI_32-22.gif?1448066772" width="92" height="69" alt=""></td>
+		<td>
+			<img src="spacer.gif" width="1" height="69" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="3">
+			<img src="GamUI_24-23.gif?1448066772" width="572" height="6" alt=""></td>
+		<td>
+			<img src="spacer.gif" width="1" height="6" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="GamUI_40.gif?1448066772" width="92" height="69" alt=""></td>
+		<td>
+			<img src="Level5_Button.gif?1448066772" width="388" height="69" alt=""></td>
+		<td>
+			<img src="GamUI_38.gif?1448066772" width="92" height="69" alt=""></td>
+		<td>
+			<img src="spacer.gif" width="1" height="69" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="3">
+			<img src="GamUI_46.gif?1448066772" width="572" height="6" alt=""></td>
+		<td>
+			<img src="spacer.gif" width="1" height="6" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="GamUI_48.gif?1448066772" width="92" height="69" alt=""></td>
+		<td>
+			<img src="CancelSelect_Button.gif?1448066772" width="388" height="69" alt=""></td>
+		<td>
+			<img src="GamUI_46-30.gif?1448066772" width="92" height="69" alt=""></td>
+		<td>
+			<img src="spacer.gif" width="1" height="69" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="3">
+			<img src="BottomRunner.gif?1448066772" width="572" height="61" alt=""></td>
+		<td>
+			<img src="spacer.gif" width="1" height="61" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="5">
+			<img src="MainBottomRunner.gif?1448066772" width="1366" height="84" alt=""></td>
+		<td>
+			<img src="spacer.gif" width="1" height="84" alt=""></td>
+	</tr>
+</table>
+<!-- End Save for Web Slices -->
+</body>
+</html>

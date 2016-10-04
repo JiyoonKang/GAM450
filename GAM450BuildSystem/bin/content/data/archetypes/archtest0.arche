@@ -1,0 +1,6 @@
+GameObject
+{
+  name std::string ""
+  archetype std::string "archtest0"
+
+}

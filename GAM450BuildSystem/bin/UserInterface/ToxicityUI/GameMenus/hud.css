@@ -1,0 +1,294 @@
+ html, body {
+
+
+
+margin:0;
+
+padding:0;
+
+
+
+}
+ 
+ .Page{
+  position: relative;
+  width:100%;
+  height:100%;
+  font-family:Verdana, Geneva, sans-serif;
+}
+
+.P1Square{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width:50%;
+	height:50%;
+	color:white;
+	text-align:left;
+  font-family:Verdana, Geneva, sans-serif;
+}
+
+.P2Square{
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	width:50%;
+	height:50%;
+	color:white;
+	text-align:right;
+  font-family:Verdana, Geneva, sans-serif;
+}
+
+.P3Square{
+	position: absolute;
+	top: 50%;
+	left: 0%;
+	width:50%;
+	height:50%;
+	color:white;
+	text-align:left;
+  font-family:Verdana, Geneva, sans-serif;
+}
+.P4Square{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width:50%;
+	height:50%;
+	color:white;
+	text-align:right;
+  font-family:Verdana, Geneva, sans-serif;
+}
+
+
+.Health{
+	position: relative;
+	opacity:1.0;
+}
+.HealthLabelL{
+	float:left;
+}
+.HealthLabelR{
+	float:right;
+}
+.HealthCount{
+	
+}
+
+.Ammo{
+	position: absolute;
+	right:0;
+	bottom:5%;
+	opacity:1.0;
+}
+.AmmoLabel{
+	float:right;
+}
+.AmmoCount{
+	float:right;
+}
+.ReloadText{
+	
+}
+.ScoreL{
+	position: relative;
+  top:2%;
+  left:3%;
+  font-size: 24px;
+	opacity:1.0;
+}
+.ScoreR{
+	position: relative;
+  top:2%;
+  right:3%;
+  font-size: 24px;
+	opacity:1.0;
+}
+.ScoreCount{
+	position: relative;
+  top:1%;
+}
+.PlayerNumL{
+	position: relative;
+  top:2%;
+  left:3%;
+	opacity:1.0;
+}
+.PlayerNumR{
+	position: relative;
+  top:2%;
+  right:3%;
+	opacity:1.0;
+}
+
+.CenterStage{
+    position:absolute;
+	opacity:1.0;
+    top:0;
+	left:0;
+	
+}
+.CenterStage Img{
+	height: 100%;
+  width: 100%;
+	
+}
+
+.CenterGlow{
+    position:absolute;
+	opacity:1.0;
+    top:0;
+	left:0;
+	width:100%;
+  height:100%;
+}
+.CenterGlow Img{
+	width:100%;
+  height:100%;
+	opacity:0;
+}
+
+.OverheatL{
+  position:absolute;
+	color:red;
+  font-family:Verdana, Geneva, sans-serif;
+  
+  font-weight: 900;
+  -webkit-text-fill-color: red; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: yellow;
+   
+	top:56%;
+  left:45%;
+
+}
+.OverheatL Img{
+  opacity:0;
+	height: 5%;
+  width: 30%;
+  
+}
+.OverheatR{
+  position:absolute;
+	color:red;
+  font-family:Verdana, Geneva, sans-serif;
+  
+  font-weight: 900;
+  -webkit-text-fill-color: red; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: yellow;
+  
+	top:56%;
+  left:45%;
+
+}
+.OverheatR Img{
+  opacity:0;
+	height: 5%;
+  width: 30%;
+  
+}
+
+.AmmoBarH{
+	position:absolute;
+	top:55%;
+	left:45%;
+	height:0%;
+	width: 0%;
+	background:red;
+}
+
+.AmmoBarV{
+	position:absolute;
+	bottom:45%;
+	left:53%;
+	height:0%;
+	width: 0%;
+	background:red;
+}
+
+.AmmoBarOutlineV{
+	position:absolute;
+	bottom:44.5%;
+	left:52.7%;
+	height:11%;
+	width: 1.6%;
+	background:black;
+}
+
+.HealthBarV{
+	position:absolute;
+	bottom:45%;
+	left:45.6%;
+	height:10%;
+	width: 1%;
+	background:#64FF64;
+}
+
+.HealthBarOutlineV{
+	position:absolute;
+	bottom:44.5%;
+	left:45.3%;
+	height:11%;
+	width: 1.6%;
+	background:black;
+}
+
+
+.Timer{
+  font-family:Verdana, Geneva, sans-serif;
+	position:absolute;
+	opacity:1.0;
+	color:white;
+  width:4%;
+  background-color:black;
+  z-index:2;
+	top:47.5%;
+  left:48%;
+  font-size: 32px;
+	text-align:center;
+}
+
+.Winner{
+	position:absolute;
+	opacity:1.0;
+  z-index:100;
+  width:100%;
+  height:100%;
+	top:0%;
+  left:0%;
+}
+.Winner Img{
+	width:100%;
+  opacity:0;
+  z-index:100;
+}
+
+.LeaderTop{
+  position:absolute;
+	opacity:1.0;
+  z-index:50;
+  width:33%;
+  height:10%;
+	top:3%;
+  left:33.5%;
+}
+.LeaderBot{
+    position:absolute;
+	opacity:1.0;
+  z-index:50;
+  width:33%;
+  height:10%;
+	top:53%;
+  left:33.5%;
+}
+
+.LeaderTop Img{
+  width:100%;
+  opacity: 0;
+}
+
+.LeaderBot Img{
+    width:100%;
+    opacity:0;
+}

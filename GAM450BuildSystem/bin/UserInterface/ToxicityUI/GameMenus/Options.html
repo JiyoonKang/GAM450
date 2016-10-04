@@ -1,0 +1,42 @@
+<html>
+<head>
+<title></title>
+ <script src="Options.js"></script> 
+ <script src="Input.js"></script> 
+ <link rel="stylesheet" type="text/css" href="Options.css">
+</head>
+<body onload="Begin()" style="background:0xFFFFFFFF">
+<div class="Page">
+	<div class="Title">
+		<img src="images/OptionsRunner.png"></img>
+	</div>
+	<div class="Button">
+		<img name="MenuItem0" id="FullScreen" src="images/FullScreen_Checked.png"
+		onload="this.dataset.mouseOver='images/FullScreen_Checked_Hovered.png'; this.dataset.mouseOut='images/FullScreen_Checked.png';"
+		onmouseover="MouseOver('FullScreen')"
+		onmouseout="MouseOut('FullScreen')"
+		onclick="ClickFullScreen()">
+	</div>
+	<div class="Button">
+		<img name="MenuItem1" id="MuteAll" src="images/MuteAll_UnChecked.png"
+		onload="this.dataset.mouseOver='images/MuteAll_UnChecked_Hovered.png'; this.dataset.mouseOut='images/MuteAll_UnChecked.png';"
+		onmouseover="MouseOver('MuteAll')"
+		onmouseout="MouseOut('MuteAll')"
+		onclick="ClickMuteAll()">
+	</div>
+	<div class="Button">
+		<img name="MenuItem2" id="MuteMusic" src="images/MuteMusic_UnChecked.png"
+		onload="this.dataset.mouseOver='images/MuteMusic_UnChecked_Hovered.png'; this.dataset.mouseOut='images/MuteMusic_UnChecked.png';"
+		onmouseover="MouseOver('MuteMusic')"
+		onmouseout="MouseOut('MuteMusic')"
+		onclick="ClickMuteMusic()">
+	</div>
+	<div class="Button">
+		<img name="MenuItem3" src="images/OptionsResume_Button.png"
+		onmouseover="this.src='images/OptionsResume_Button_Hover.png'"
+		onmouseout="this.src= 'images/OptionsResume_Button.png'"
+		onclick="ClickBack()">
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<html>
+<head>
+<title></title>
+ <script src="Confirmation.js"></script> 
+ <script src="Input.js"></script> 
+ <link rel="stylesheet" type="text/css" href="Confirmation.css">
+</head>
+<body onload="Begin()" style="background:0xFFFFFFFF">
+<div class="Page">
+	<div class="Title">
+		<img src="images/QuitBanner.png"></img>
+	</div>
+	<div class="Title">
+		<img src="images/AreYouSure.png"></img>
+	</div>
+	<div class="PlayImage">
+		<img name="MenuItem0" src="images/Yes_Button.png"
+		onmouseover="this.src='images/Yes_Button_Hovered.png'"
+		onmouseout="this.src= 'images/Yes_Button.png'"
+		onclick="ClickYes()"></img>
+	</div>
+	<div class="PlayImage">
+		<img name="MenuItem1" src="images/No_Button.png"
+		onmouseover="this.src='images/No_Button_Hovered.png'"
+		onmouseout="this.src= 'images/No_Button.png'"
+		onclick="ClickNo()"></img>
+	</div>
+</div>
+</body>
+</html>

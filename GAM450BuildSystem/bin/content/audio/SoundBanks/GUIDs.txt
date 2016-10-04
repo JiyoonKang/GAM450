@@ -1,0 +1,45 @@
+{7742e03a-7ccd-4be8-a09b-346b7fb51f29} event:/CollectItem
+{132c87bd-f43f-410b-a762-744bbf52af19} event:/Death
+{ba9c0fd9-5a1f-4735-bf99-4d683e08828e} event:/FootstepDry1
+{928931d4-b77f-4648-a49c-6b90bb337f44} event:/FootstepDry2
+{b34792d0-c5c7-4221-89dc-d1a7ba27e52d} event:/FootstepWet1
+{6b542b78-d738-4b78-bee0-6c1ce97328da} event:/FootstepWet2
+{9bb761c5-9168-475f-aee2-99904547f01e} event:/GameEnd
+{28ee3450-37d9-4f14-9b5a-6d715639116c} event:/GameEnd (2)
+{180dcf1e-6eb6-4d2e-9813-a8b43d7e8d4f} event:/GameStart
+{e49455e8-e085-402c-9df8-908a766d4d47} event:/GameStart (2)
+{569c7391-c2d0-4cd0-bf56-d67602796b5a} event:/GeigerExtreme
+{a34cb1d3-9720-4287-9adc-1f9252378094} event:/GeigerHeavy
+{6642a23d-3709-42bf-80f3-30acd6442e29} event:/GeigerLight
+{96eab3d8-8258-4923-98da-a97d43dc5c95} event:/GeigerMedium
+{113edb60-6254-44c7-a169-651e12b05b54} event:/LandingDry
+{5b4b288e-c9f4-4ce5-88b8-998e0be95ccb} event:/LandingWet
+{5d5fea25-70ae-4eed-9c27-40bce2ac03ca} event:/MenuBack
+{61e17f5b-dbd3-4d6c-aef3-c7f4d89c931c} event:/MenuClick
+{1c07a023-64b9-43eb-b6d6-79d149028b9f} event:/MenuForward
+{8665f490-b3fd-4538-97d4-0100ca0f5e16} event:/MenuHover
+{295cfe96-c110-4bbc-a8f2-6afaea7cf854} event:/MenuTrackLoopV1
+{fb4c56eb-de00-4507-94de-47b55547bedb} event:/MenuTrackLoopV1 (2)
+{e2851a6b-ca1c-45df-814e-58804b6908b2} event:/MenuTrackLoopV1 (3)
+{f3375e26-cd1d-4885-8390-1d05151ab944} event:/OutOfAmmo
+{eea6a68a-232b-4ae9-81fe-c1f6e906ca6a} event:/Overheat
+{cda3b3d4-4b65-45e9-980a-e0b8a4604adb} event:/OverheatShoot
+{6bcb7312-930e-4438-bdd8-aadfd02746fe} event:/PlayerCollideObject
+{73fc92de-a9e6-4bad-9a3a-a04ba0e6b954} event:/Reload
+{253dd89c-b0a0-415a-b2d1-9c9fc7bef778} event:/Shoot1
+{1eb7d628-4478-425f-abd1-ac9d65ac0fa6} event:/Shoot1 (2)
+{76f47bc2-6378-4252-a94c-be8449d1dede} event:/Shoot1 (3)
+{cefdc58a-ddaf-4b35-939a-9a3ca8678d7a} event:/Shoot1 (4)
+{0ad845fc-9e32-4135-a401-84b03ed065a2} event:/Shoot1 (5)
+{fd52b6b5-f9eb-4bee-9b7d-7a133bd3ebf7} event:/Shoot2
+{2a62af9f-049b-4e5a-8ca9-c3ac29cf1b4f} event:/Shoot2 (2)
+{e3595def-d38f-455b-b5ef-c21ade06226e} event:/Shoot2 (3)
+{a4c8da86-6a24-4fc5-864f-2a3b7f63aa11} event:/Shoot2 (4)
+{db3b298c-1286-4ec2-977f-40dc2ff92734} event:/Shoot2 (5)
+{88832709-fd74-42c0-8199-ecad3ee3c0ae} event:/ShotCollideObject
+{7d5f51e2-5ad4-4d41-a5d5-e373804edb7b} bus:/
+{68a64bb2-dcc5-47e3-b83a-b49cb3f689b7} bus:/MenuSFX
+{a70c1625-b932-446e-bbfa-16ced602f726} bus:/Music
+{28c3f15a-ba0b-42dd-aa6a-c76def4947c3} bus:/SFX
+{3226416a-009e-4c08-a70f-9d5075e65f3d} vca:/test
+{25e39079-af98-4c75-87ad-72197b2fff94} bank:/Master Bank

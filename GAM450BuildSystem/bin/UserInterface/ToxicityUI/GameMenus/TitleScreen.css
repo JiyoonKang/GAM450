@@ -1,0 +1,49 @@
+.Page{
+position: absolute;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  border-radius: 3px;
+}
+
+.Title{
+position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-color: black;
+  border-radius: 3px;
+}
+.Spacer{
+position: absolute;
+  margin: auto;
+  top: 0%;
+  width: 30%;
+  height: 10%;
+  background-color: black;
+  border-radius: 3px;
+}
+.PlayButton{
+position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 37.5%;
+  width: 25%;
+  height: 10%;
+  background-color: black;
+  border-radius: 3px;
+}
+.Copyright{
+position: absolute;
+  
+  margin-left:auto;
+  margin-right:auto;
+  top: 70%;
+  width: 100%;
+  height: 10%;
+  background-color: black;
+  border-radius: 3px;
+}

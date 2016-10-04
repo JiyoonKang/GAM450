@@ -1,0 +1,50 @@
+<html>
+<head>
+<title></title>
+ <script src="PauseMenu.js"></script> 
+ <script src="Input.js"></script> 
+ <link rel="stylesheet" type="text/css" href="PauseMenu.css">
+</head>
+<body onload="Begin()" style="background:0xFFFFFFFF">
+<div class="Page">
+	<div class="Title">
+		<img src="images/PausedRunner.png"></img>-
+	</div>
+	<div class="Button">
+		<img name="MenuItem0" src="images/Resume_GameButton.png"
+		onmouseover="this.src='images/Resume_GameButton_Hover.png'"
+		onmouseout="this.src= 'images/Resume_GameButton.png'"
+		onclick="ClickResume()"></img>
+	</div><div class="Button">
+		<img name="MenuItem1" src="images/LevelSelect_Button.png"
+		onmouseover="this.src='images/LevelSelect_Button_Hover.png'"
+		onmouseout="this.src= 'images/LevelSelect_Button.png'"
+		onclick="ChangeMenu('LevelSelectPauseMenu')"></img>
+	</div>
+	<div class="Button">
+		<img name="MenuItem2" src="images/Options_Button.png"
+		onmouseover="this.src='images/Options_Button_Hover.png'"
+		onmouseout="this.src= 'images/Options_Button.png'"
+		onclick="ChangeMenu('Options')"></img>
+	</div>
+	<div class="Button">
+		<img name="MenuItem3" src="images/HowToPlay_Button.png"
+		onmouseover="this.src='images/HowToPlay_Button_Hover.png'"
+		onmouseout="this.src= 'images/HowToPlay_Button.png'"
+		onclick="ChangeMenu('HowToPlay')"></img>
+	</div>
+	<div class="Button">
+		<img name="MenuItem4" src="images/Credits_Button.png"
+		onmouseover="this.src='images/Credits_Button_Hover.png'"
+		onmouseout="this.src= 'images/Credits_Button.png'"
+		onclick="ChangeMenu('Credits')"></img>
+	</div>
+	<div class="Button">
+		<img name="MenuItem5" src="images/Quit_Button.png"
+		onmouseover="this.src='images/Quit_Button_Hover.png'"
+		onmouseout="this.src= 'images/Quit_Button.png'"
+		onclick="ChangeMenu('Confirmation')"></img>
+	</div>
+</div>
+</body>
+</html>
